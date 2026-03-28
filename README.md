@@ -3,9 +3,15 @@ LECTURE 4 GUIDE: (MONGO DB)
 1. The Downloads
 MongoDB Community Server (The Engine): Download the Windows MSI or Zip (Version 7.0 or 8.0+). This provides mongod.exe and mongosh.exe.
 
+https://www.mongodb.com/try/download/community
+
 MongoDB Database Tools (The Importer): Download the Windows Zip. This contains mongoimport.exe, which is not included in the server download.
 
+https://www.mongodb.com/try/download/database-tools
+
 Node.js (The Runner): Download the "Current" version (e.g., v23 or v24). You need this specific version to run TypeScript files directly without a heavy compiler.
+
+https://nodejs.org/en/download/current
 
   
 2. The Folder Setup (The "Dragging")
