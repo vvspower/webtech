@@ -30,7 +30,7 @@ mongod.exe --dbpath=data
 Step B: Import your JSON Files
 Open a second terminal in the bin folder. This command loops through your JSON folder and creates collections automatically:
 
-for %f in (..\JSON\*.json) do mongoimport.exe --db recapsheet --collection %~nf --jsonArray --file="%f"
+for %f in (..\JSON\recapsheet\*.json) do mongoimport.exe --jsonArray --file="%f" -d recapsheet -c %~nf
 
 Step C: Enable TypeScript Support
 In your project terminal (where your REPL.ts is), run this once to tell Node to ignore TypeScript errors:
