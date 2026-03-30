@@ -14,7 +14,7 @@ import type {
     Head as HeadType
 } from "../types.ts";
 
-// const mongoUri = "mongodb://localhost:27017/recapsheet?directConnection=true";
+const mongoUri = "mongodb://localhost:27017/recapsheet?directConnection=true";
 
 // /---------------------Singleton Connection----------------------/ 
 
